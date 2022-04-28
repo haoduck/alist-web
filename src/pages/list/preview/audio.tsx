@@ -28,7 +28,7 @@ const Audio = ({ file }: FileProps) => {
     ReactJkMusicPlayerAudioListProps[]
   >([]);
   const fileUrl = useFileUrl();
-  const [volume, setVolume] = useLocalStorage("volume", 0.5);
+  const [volume, setVolume] = useLocalStorage("volume", 0.9);
   const mobile = useBreakpointValue({
     base: true,
     md: false,

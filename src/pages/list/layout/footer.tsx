@@ -10,9 +10,7 @@ const Footer = () => {
     <Center py="4" className="footer">
       <VStack>
         <HStack spacing="2" className="line0">
-          <Link isExternal href="https://github.com/Xhofe/alist">
-            {t("Powered by {{project}}", { project: "Alist" })}
-          </Link>
+          <ReactLink to="/">{t("ASMR基佬中心")}</ReactLink>
           <span>|</span>
           <ReactLink to="/@manage">{t("Manage")}</ReactLink>
         </HStack>
